@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Website</title>
+
+    <!-- ANIMATION CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- FONT FAMILY CDN -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+
+    <!-- FONT AWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- THE RESPONSIVE NAVBAR -->
+        <nav class="navbar">
+            <div class="logo"><img src="assets/logo" alt=""></div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home5">Home</a></li>
+                <li><a href="#parent5">About Us</a></li>
+                <li><a href="#service5">Our Services</a></li>
+                <!-- <li><a href="#">Join Us</a></li> -->
+                <!-- <li><a href="#">Contact Us</a></li> -->
+            </ul>
+        </nav> <!-- THE RESPONSIVE NAVBAR CODE CLOSES HERE -->
+
+        <!-- THIS IS THE JAVASCRIPT THAT IS NEEDED TO MAKE THE NAVBAR RESPONSIVE -->
+        <!-- <script>
+            document.getElementById('mobile-menu').addEventListener('click', function () {
+                var navLinks = document.getElementById('nav-links');
+                navLinks.classList.toggle('active');
+            });
+        </script>  -->
+
+        <!-- THE CODE FOR THE REST OF MY PAGE STARTS BELOW -->
+
+        <div class="parent-home" id="home5"><!-- THIS THE PARENT DIV FOR THE CONTENT AND ANIMATION ON HOMEPAGE -->
+            <div class="content"><!-- THE CONTENT DIV STARTS HERE -->
+
+                <div class="content-words">
+                    <h1 class="animate__animated animate__bounceInDown "><span>Y</span>our</h1> &nbsp;&nbsp;
+                    <h1 class="animate__animated animate__bounceInRight animate__delay-1s	1s">Tru<span>s</span>ted</h1>
+                </div>
+                <h1 class="animate__animated animate__lightSpeedInLeft animate__delay-2s	2s">De<span
+                        style="color: darkorange;">l</span>ivery <span>P</span>artner</h1>
+
+                <p class="animate__animated animate__fadeInUp animate__delay-3s 3s"> From bustling cities to remote
+                    areas,
+                    <span style="color: orange; font-weight: 700px;">FD SERVICES</span> covers it all. Our extensive
+                    network
+                    ensures
+                    that no matter where your package needs to go, we have the means to get it there. Experience the
+                    convenience of our seamless delivery service and let us take the hassle out of logistics for you.
+                </p>
+
+            </div><!--THE CONTENT DIV CLOSES HERE  -->
+
+
+
+
+
+            <!-- background Animation div -->
+            <div class="animation-div">
+
+                <i class="fa-solid fa-bell"></i>
+
+
+
+                <!-- the loop or transition div -->
+                <div class="loop-wrapper animate__animated animate__lightSpeedInRight  animate__delay-4s	4s">
+                    <div class="mountain"></div>
+                    <div class="hill"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="rock"></div>
+                    <div class="truck"></div>
+                    <div class="wheels"></div>
+                </div> <!-- the loop wrapper div closes here   -->
+            </div> <!-- the animation div closes here   -->
+        </div><!-- THE PARENT DIV CLOSES HERE -->
+
+
+
+        <div class="parent-about" id="parent5"><!--THE FIRST DIV FOR THE ABOUT US   -->
+            <!-- there are two divs in this div to make it a flex container -->
+
+            <div class="image-para1">
+                <h1>WHO WE ARE!</h1>
+                <img src="./assets/home-image-1-computer.gif" alt="about-us">
+            </div>
+
+            <div class="image-para2">
+                <h1>WHO WE ARE</h1>
+                <p>Welcome to <span style="font-weight: bolder; color: blue; font-size: 1em;">FD SERVICES</span>, your
+                    trusted partner in seamless courier delivery solutions. Established
+                    with the vision to revolutionize the logistics industry, we pride ourselves on delivering
+                    excellence,
+                    speed, and reliability to every doorstep. Our team of dedicated professionals works around the clock
+                    to
+                    ensure that your packages reach their destinations safely and on time.</p>
+                <img src="./assets/home-image-2-tractors.gif" alt="">
+            </div>
+        </div><!-- THE FIRST DIV FOR THE ABOUT US CLOSES HERE -->
+
+
+        <div class="service-heading" id="service5"><span style="color: yellow;">W</span>H<span style="color: red;">A</span>T WE
+            PR<span style="color: orange;">O</span>VI<span style="color: palevioletred;">D</span>E?</div>
+
+        <div class="services">
+            <div class="service-image-content1">
+                <img src="./assets/service-1.gif" alt="">
+
+            </div>
+
+            <div class="service-image-content2">
+                <h2>1. Same-Day Delivery</h2>
+
+                <list>
+                    <ul>
+                        <li>Our same-day delivery service ensures that your packages are delivered within hours,
+                            providing
+                            speed
+                            and reliability for urgent shipments.</li><br>
+                        <li> Track your package in real-time from pickup to delivery with our advanced tracking
+                            system.</li><br>
+                        <li> Leveraging our extensive network, we guarantee timely delivery across the city.</li><br>
+                        <li> Easily integrate our delivery services with your e-commerce platform for streamlined
+                            operations.</li><br>
+                        <li>Available round-the-clock to meet your urgent delivery needs anytime, anywhere.</li>
+                    </ul>
+                </list>
+            </div>
+        </div>
+
+        <div class="service-cont2">
+
+            <div class="list-cont2">
+                <h2 class="list2">2. Specialty Deliveries </h2>
+                <list>
+                    <ul>
+                        <li> Fragile & Valuable Items: Expert handling and packaging for delicate or high-value items,
+                            ensuring
+                            they arrive safely.</li><br>
+                        <li> Medical & Pharmaceutical: Temperature-controlled delivery options for sensitive medical and
+                            pharmaceutical shipments.</li><br>
+                        <li>Oversized & Heavy Freight: Capable of transporting oversized or heavy items with specialized
+                            equipment and vehicles.</li>
+                    </ul>
+                </list>
+            </div>
+
+            <div class="service2-image">
+                <img src="./assets/11-SUPPLY-CHAIN-MANAGEMENT-unscreen.gif" alt="">
+            </div>
+        </div>
+
+
+
+
+
+
+            <div class="order">
+                <div class="order-content"><h1>Order From Our Apps <br>And Get Special Offer.</h1>
+               <list>
+                <ul>
+                    <li>Enjoy unique discounts only available through our app.</li>
+                    <li>Experience quick and hassle-free ordering with just a few taps.</li>
+                    <li>Get access to limited-time promotions and special offers directly in the  </li>
+                </ul>
+               </list> 
+           
+          
+                <img src="./assets/cashback_bonus-removebg-preview.png" alt="">
+                <img src="./assets/secure-payment-removebg-preview.png" alt="">
+                <img src="./assets/free_shipping-removebg-preview.png" alt="">
+            
+            </div>
+ 
+              <div class="image-order"><img src="./assets/hpp.png" alt=""></div>
+
+             </div>
+
+          
+
+
+
+             <footer>
+                <!-- <div class="footer">
+                    <div class="footer-content"><br>
+                        <a><b>mdn</b></a>
+                        <p>Your blueprint for better internet.</p>
+                    </div> -->
+                    <div class="footer-content2"><br>
+                        <p><b>Company</b></p><br>
+                        <a >About</a><br>
+                        <a >Blog</a><br>
+                        <a >Careers</a><br>
+                        <a >Product</a><br>
+                    </div>
+        
+        
+                    <div class="footer-content3"><br>
+                        <p><b>Join Us</b></p>
+                        <a >Drive Partner</a>
+                        <a >Merchant</a>
+                    </div>
+        
+                    <div class="footer-content4"><br>
+                        <p><b>Career</b></p>
+                        <a >Internship</a>
+                        <a >Professional</a>
+                    </div>
+        
+        
+                    <div class="footer-content5"><br>
+                        <p>Further Information</p>
+                        <a >Terms and Conditions</a>
+                        <a >Privacy Policy</a>
+                
+                    </div>
+                </div>
+        
+            </footer>
+
+        
+        
+
+
+
+
+        </div><!-- this is the main container div -->
+
+
+
+
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+
+</body>
+
+</html>
